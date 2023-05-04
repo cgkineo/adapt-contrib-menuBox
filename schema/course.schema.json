@@ -12,7 +12,7 @@
           "type": "object",
           "default": {},
           "properties": {
-            "_menu": {
+            "_component": {
               "type": "object",
               "default": {},
               "properties": {
