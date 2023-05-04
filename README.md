@@ -1,6 +1,6 @@
 # adapt-contrib-menuBox
 
-**Menu Box** is a component version of the [Box Menu](https://github.com/adaptlearning/adapt-contrib-boxMenu) for when `config._isPageMenu = true`. Allowing menus to act as pages in an Adapt course.
+**Menu Box** is a component version of the [Box Menu](https://github.com/adaptlearning/adapt-contrib-boxMenu) for when `config.json:_isPageMenu = true`. Allowing menus to act as pages in an Adapt course.
 
 ## Settings Overview
 
