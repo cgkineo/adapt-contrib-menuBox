@@ -1,8 +1,32 @@
+/** component.json */
 {
     "_id": "c-course-05",
     "_parentId": "b-course-05",
     "_type": "component",
-    "_component": "menubox",
+    "_component": "menuBox",
     "_classes": "",
     "_layout": "full"
+}
+
+/** config.json **/
+{
+    "_isPageMenu": true
+}
+
+/** course.json **/
+{
+    "_globals": {
+        "_components": {
+            "_menuBox": {
+                "durationLabel": "Duration:"
+            }
+        }
+    }
+}
+
+/** contentObjects.json **/
+{
+    "_menuBox": {
+        "_renderAsGroup": true
+    }
 }
