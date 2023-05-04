@@ -1,5 +1,5 @@
 {
-  "$anchor": "boxMenu-contentobject",
+  "$anchor": "menubox-contentobject",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "$patch": {
@@ -8,9 +8,9 @@
     },
     "with": {
       "properties": {
-        "_boxMenu": {
+        "_menuBox": {
           "type": "object",
-          "title": "Box Menu",
+          "title": "Menu box",
           "default": {},
           "properties": {
             "_renderAsGroup": {
