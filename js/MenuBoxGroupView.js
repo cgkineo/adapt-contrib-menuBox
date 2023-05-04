@@ -7,6 +7,10 @@ class MenuBoxGroupView extends MenuItemView {
     return `${super.className()} menubox-group`;
   }
 
+  get childrenToAdd() {
+    return this.model.getAvailableChildModels().filter(model => model.isTypeGroup('contentobject'));
+  }
+
   postRender() {
     _.defer(this.addChildren.bind(this));
     this.$el.imageready(this.setReadyStatus.bind(this));
