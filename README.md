@@ -2,6 +2,9 @@
 
 **Menu Box** is a component version of the [Box Menu](https://github.com/adaptlearning/adapt-contrib-boxMenu) for when `config.json:_isPageMenu = true`. Allowing menus to act as pages in an Adapt course.
 
+Requires: https://github.com/adaptlearning/adapt-contrib-core/pull/366
+NOTE: Not supported in the AAT at this time.
+
 ## Settings Overview
 
 The attributes listed below are used in *component.json*, *course.json* and *contentObjects.json* to configure **Menu Menu**, and are properly formatted as JSON in [*example.json*](https://github.com/cgkineo/adapt-contrib-menubox/blob/master/example.json).
