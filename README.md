@@ -7,7 +7,7 @@ NOTE: Not supported in the AAT at this time.
 
 ## Settings Overview
 
-The attributes listed below are used in *component.json*, *course.json* and *contentObjects.json* to configure **Menu Menu**, and are properly formatted as JSON in [*example.json*](https://github.com/cgkineo/adapt-contrib-menubox/blob/master/example.json).
+The attributes listed below are used in *component.json*, *course.json* and *contentObjects.json* to configure **Menu Box**, and are properly formatted as JSON in [*example.json*](https://github.com/cgkineo/adapt-contrib-menubox/blob/master/example.json).
 
 ### Attributes
 
